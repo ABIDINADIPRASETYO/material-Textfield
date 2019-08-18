@@ -4,7 +4,6 @@ version = project.libraryVersion
 
 android {
     compileSdkVersion project.sdk
-    buildToolsVersion project.buildTools
 
     defaultConfig {
         minSdkVersion project.minSdk
@@ -21,9 +20,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile "com.android.support:appcompat-v7:${project.supportVersion}"
+    implementation "com.android.support:appcompat-v7:${project.supportVersion}"
 }
 
 ext {
