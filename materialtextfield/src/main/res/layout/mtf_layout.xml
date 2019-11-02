@@ -10,7 +10,7 @@
         android:layout_marginTop="45dp"
         android:gravity="center_vertical"
         android:paddingLeft="5dp"
-        android:textColor="#11A79E"
+        android:textColor="#070707"
         android:textSize="18sp"
         tools:text="Password" />
 

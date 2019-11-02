@@ -36,8 +36,8 @@
             android:layout_height="wrap_content"
             android:hint="Email"
             android:maxLines="1"
-            android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
             android:textSize="15sp" />
 
     </com.github.florent37.materialtextfield.MaterialTextField>
